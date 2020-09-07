@@ -139,3 +139,8 @@ img > p{
     width: 200px;
     margin: 5px;
 }
+.total-amount, .delivery-cost {
+    font-weight: bold;
+    font-size: 1.6em;
+  }
+
