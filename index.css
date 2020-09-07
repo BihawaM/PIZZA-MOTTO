@@ -133,3 +133,9 @@ p{
 img > p{
     background-color: aliceblue;
 }
+.card{
+    background-color: aliceblue;
+    text-align: center;
+    width: 200px;
+    margin: 5px;
+}
