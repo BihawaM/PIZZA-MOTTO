@@ -1,0 +1,12 @@
+body{
+    background: #DDB528;
+    background-position: fixed;
+    background-size: cover;
+}
+.flex-container{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    background-size: cover;
+    background-position: fixed;
+}
