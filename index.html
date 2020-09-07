@@ -113,4 +113,59 @@
         </div>
     </div>
     <br>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h3 id="form-title">Make Order</h3>
+                <hr />
+                <form id="pizza-form">
+                    <div class="form-group">
+                        <label for="type">Type</label>
+                        <select class="form-control" id="type" required>
+                            <option value=""></option>
+                            <option value="pepperoni">Pepperoni</option>
+                            <option value="gourmet">Gourmet</option>
+                            <option value="BBQChicken-n-Macon-">BBQ Chic-n-Macon</option>
+                            <option value="peri peri chicken pizza">Peri peri chicken</option>
+                            <option value="chictikka 2">Chicken tikka</option>
+                            <option value="hawaiian bbq chicken pizza">Hawaiian-n-bbq chicken</option>
+                            <option value="deluxe-meat-pizza-it">Deluxe meat</option>
+                            <option value="roasted-vegetable-feta-pizza-">Roasted vegetable-n-feta</option>
+                            <option value="margherita">Margherita</option>
+                            <option value="Boerewors pizza">Boerewors</option>
+                            <option value="mexican wave">Mexican wave</option>
+                            <option value="double-cheese">Double cheese</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="size">Size</label>
+                        <select class="form-control" id="size" required>
+                            <option value=""></option>
+                            <option value="large">Large</option>
+                            <option value="medium">Medium</option>
+                            <option value="small">Small</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="topping">Topping</label>
+                        <select class="form-control" id="topping" required>
+                            <option value=""></option>
+                            <option value="mushroom">Mushroom</option>
+                            <option value="cheese">Cheese</option>
+                            <option value="sausage">Sausage</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="crust">Crust</label>
+                        <select class="form-control" id="crust" required>
+                            <option value=""></option>
+                            <option value="thick">Thick</option>
+                            <option value="thin">Thin</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Add</button>
+                </form>
+                <br />
+            </div>
+            <div class="col-md-8 hidden" id="orders-div">
+                
