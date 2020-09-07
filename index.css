@@ -130,3 +130,6 @@ p{
     height: 190;
     width: 150;
 }
+img > p{
+    background-color: aliceblue;
+}
