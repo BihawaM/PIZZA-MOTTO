@@ -146,5 +146,16 @@ img > p{
 .hidden {
     display: none;
 }
-
+.checkout-options, .location {
+    z-index: 3;
+    border-radius: 15px;
+    padding: 20px;
+    width: 40%;
+    height: 60vh;
+    background: rgba(255, 208, 0, 0.979);
+    position: relative;
+    top: 100%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
 
