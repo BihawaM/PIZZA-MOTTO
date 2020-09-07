@@ -158,4 +158,8 @@ img > p{
     left: 65%;
     transform: translate(-50%, -50%);
 }
+.table{
+    background: rgba(255, 208, 0, 0.979);
+}
+
 
