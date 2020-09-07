@@ -168,4 +168,30 @@
                 <br />
             </div>
             <div class="col-md-8 hidden" id="orders-div">
-                
+                <h3>Your Orders</h3>
+                <table class="table table-striped table-dark">
+                    <thead>
+                        <tr>
+                            <th scope="col">Type</th>
+                            <th scope="col">Topping</th>
+                            <th scope="col">Crust</th>
+                            <th scope="col">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody id="order-summary"></tbody>
+                </table>
+                <p class="delivery-cost hidden">
+                    Delivery: Ksh. <span id="delivery-amount"></span>
+                </p>
+                <p class="total-amount hidden">
+                    Total: Ksh. <span id="total-amount"></span>
+                </p>
+                <br /><br />
+                <button class="btn btn-primary hidden" id="checkout">Checkout</button>
+            </div>
+        </div>
+    </div>
+<br>
+<br>
+<br>
+    
